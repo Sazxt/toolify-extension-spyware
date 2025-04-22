@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "Toolify Extension",
+  "version": "2.3.1",
+  "description": "Semua Applikasi Premium dalam satu Extension",
+  "homepage_url": "https://toolify.id",
+  "action": {
+    "default_popup": "./popup.html"
+  },
+  "background": {
+    "service_worker": "./assets/js/background.js"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "windows": "Alt+Shift+G",
+        "mac": "Alt+Shift+G",
+        "chromeos": "Alt+Shift+G",
+        "linux": "Alt+Shift+G"
+      }
+    }
+  },
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "permissions": [
+      "cookies",
+      "tabs",
+      "activeTab",
+      "scripting",
+      "declarativeNetRequest",
+      "management",
+      "storage",
+      "webNavigation"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],  
+        "js": ["./assets/js/modification.js"]
+      }
+    ],
+    "icons": {
+      "16": "./assets/images/icon-16.png",
+      "128": "./assets/images/icon-128.png"
+    }
+  }
+  
