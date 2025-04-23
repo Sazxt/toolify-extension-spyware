@@ -2,7 +2,7 @@
 
 ## 🔍 Overview
 
-"Toolify Extension" ini menyamar sebagai ekstensi browser yang menawarkan akses ke berbagai layanan premium (Netflix, ChatGPT, dll) secara gratis. Namun, di balik layar, ekstensi ini sebenarnya merupakan malware yang melakukan:
+"Toolify Extension" ini menyamar sebagai ekstensi browser yang menawarkan akses ke berbagai layanan premium (Netflix, ChatGPT, dll). Namun, di balik layar, ekstensi ini sebenarnya merupakan malware yang melakukan:
 
 - 📊 Pengumpulan data browsing yang ekstensif 
 - 🔑 Pencurian kredensial login
@@ -129,7 +129,7 @@ Kamu bisa detect ekstensi berbahaya kayak Toolify dengan cara-cara berikut:
 
 ### 🧠 Edukasi Pengguna
 
-Ingat, free stuff di internet sering "too good to be true". Kalau ada ekstensi yang claim bisa kasih kamu akses premium services secara gratis, highly likely itu scam atau malware. Ekstensi legit akan selalu:
+Ingat, free stuff di internet sering "too good to be true". Kalau ada ekstensi yang claim bisa kasih kamu akses premium services, highly likely itu scam atau malware. Ekstensi legit akan selalu:
 
 - Punya clear privacy policy
 - Request minimum permissions necessary
